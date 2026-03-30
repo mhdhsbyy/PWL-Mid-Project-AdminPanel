@@ -68,7 +68,65 @@
                                 <h2 class="text-3xl font-bold">200</h2>
                             </div>
                         </div>           
+
+                        <!-- Bagian Alwi  tabel users dan footer -->
+                         <div class="bg-white p-6 rounded-xl shadow">
+
+                <h2 class="text-lg font-semibold mb-4">
+                    Recent Users
+                </h2>
+
+                <table class="w-full text-left">
+                    <thead class="border-b">
+                        <tr class="text-gray-600">
+                            <th class="py-2">Name</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                            <th>Role</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3">Muhammad Hasby Ash Shiddiqie</td>
+                            <td>mhdhsbyy@gmail.com</td>
+                            <td>
+                                <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                                Active
+                                </span>
+                            </td>
+                            <td>Admin</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3">Ivan Destian</td>
+                            <td>ivan@gmail.com</td>
+                            <td>
+                            <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
+                            Active
+                            </span>
+                            </td>
+                            <td>User</td>
+                        </tr>
+                        <tr class="border-b hover:bg-gray-50">
+                            <td class="py-3">Syahrial Alwi</td>
+                            <td>alwi@gmail.com</td>
+                            <td>
+                            <span class="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm">
+                            Pending
+                            </span>
+                            </td>
+                            <td>User</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </div>
+    </div>
         </main>
+
+        <footer class="bg-white text-center py-3 border-t">
+    © 2026 Admin Dashboard
+    </footer>
         
             
 </body>
